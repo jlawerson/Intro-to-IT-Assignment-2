@@ -1214,7 +1214,10 @@
 		color: #696969;
 		margin: 0 0 0.25em 0;
 	}
-
+ .strong2{
+	 font-style: italic;
+	 margin-left: 40px;
+ }
 /* Section/Article */
 
 	section, article {
@@ -1712,6 +1715,7 @@
 				font-weight: 800;
 				color: inherit;
 			}
+
 
 			#banner h2:before {
 				content: '';
