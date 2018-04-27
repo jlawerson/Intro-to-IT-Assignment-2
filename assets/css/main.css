@@ -1226,11 +1226,12 @@ width: 100%;
  .strong2{
 	 font-style: italic;
 	 margin-left: 40px;
+	 margin-right: 25px;
  }
 /* Section/Article */
 
 .imgteam{
-	width: 70%;
+	width: 85%;
 	display: block;
     margin-left: auto;
     margin-right: auto;
