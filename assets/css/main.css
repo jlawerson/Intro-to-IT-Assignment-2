@@ -1229,6 +1229,13 @@ width: 100%;
  }
 /* Section/Article */
 
+.imgteam{
+	width: 70%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 	section, article {
 		margin-bottom: 5em;
 	}
