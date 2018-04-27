@@ -188,10 +188,11 @@
 /* Grid */
 	
 .column3 {
-margin-top: 50px;
-margin-left: 160px;
-width: 100%;
+		margin-top: 25px;
+		margin-left: 160px;
+		width: 100%;
 }
+
 .column4 {
 	margin-top: 50px;
 	margin-left: 260px;
