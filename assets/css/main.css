@@ -187,7 +187,16 @@
   }
 /* Grid */
 	
-
+.column3 {
+margin-top: 50px;
+margin-left: 160px;
+width: 100%;
+}
+.column4 {
+	margin-top: 50px;
+	margin-left: 260px;
+	width: 200%;
+	}
 	.row {
 		border-bottom: solid 1px transparent;
 		-moz-box-sizing: border-box;
@@ -1146,7 +1155,8 @@
 	h2 {
 		font-size: 2em;
 		margin: 0 0 1.5em 0;
-		line-height: 1em;
+		line-height: em;
+
 	}
 
 		h2.icon {
@@ -1155,7 +1165,6 @@
 
 			h2.icon:before {
 				position: relative;
-				top: 0.05em;
 				margin-right: 0.5em;
 				opacity: 0.25;
 			}
@@ -1536,18 +1545,20 @@
 /* List */
 
 	dl.contact dt {
-		display: block;
+		display: table-cell;
 		text-transform: uppercase;
 		font-weight: 700;
 		letter-spacing: 0.065em;
 		font-size: 0.9em;
 		color: #696969;
 		float: left;
-		width: 6em;
+		width: 20em;
 	}
 
 	dl.contact dd {
-		margin: 0 0 1em 6em;
+		margin: 0 0 2em 10em;
+		margin-top: -25px;
+
 	}
 
 	ul.default {
@@ -1708,6 +1719,7 @@
 			font-weight: 700;
 			line-height: 1.3em;
 			margin: 0 0 1.5em 0;
+			text-shadow: 2px 2px 4px #000000;
 		}
 
 			#banner h2 strong {
@@ -1762,7 +1774,6 @@
 		background: url("images/bg01.png"), url("../../images/header.jpg") ;
 		background-position: top left, center center;
 		background-size: auto, cover;
-		
 	}
 
 	#main-wrapper {
@@ -1776,7 +1787,7 @@
 		background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("images/bg03.png"), url("images/bg02.png");
 		position: relative;
 		background-repeat: repeat-x, no-repeat, repeat;
-		background-size: 100% 100%, 100% 15em, auto auto;
+		background-size: 100% 90%, 100% 15em, auto auto;
 		background-position: top left, top center, top left;
 	}
 
@@ -1936,14 +1947,15 @@
 
 			#nav {
 				position: absolute;
-				right: 2em;
+				right: 1em;
+				left: 170px;
 				top: 0;
 				line-height: 5.5em;
 			}
 
 				#nav > ul > li {
 					float: left;
-					padding: 0 0.8em 0 0.8em;
+					padding: 0 0.5em 0 0.5em;
 				}
 
 					#nav > ul > li > a, #nav > ul > li > span {
