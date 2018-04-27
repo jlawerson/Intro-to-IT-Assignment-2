@@ -43,7 +43,7 @@
 				speed: 300,
 				detach: false
 			});
-
+		
 		// Prioritize "important" elements on mobile.
 			skel.on('+mobile -mobile', function() {
 				$.prioritize(
